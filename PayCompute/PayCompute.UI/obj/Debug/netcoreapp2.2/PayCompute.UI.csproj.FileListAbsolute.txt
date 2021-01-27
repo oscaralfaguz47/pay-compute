@@ -38,4 +38,4 @@ C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompu
 C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.UI\obj\Debug\netcoreapp2.2\PayCompute.UI.csproj.CopyComplete
 C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.UI\obj\Debug\netcoreapp2.2\PayCompute.UI.dll
 C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.UI\obj\Debug\netcoreapp2.2\PayCompute.UI.pdb
-C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.UI\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.UI\obj\Debug\netcoreapp2.2\Razor\Views\Employees\Index.cshtml.g.cs

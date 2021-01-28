@@ -6,7 +6,7 @@ namespace PayCompute.Entity
 {
     public enum StudentLoan
     {
-        yes,
+        Yes,
         No
     }
 }

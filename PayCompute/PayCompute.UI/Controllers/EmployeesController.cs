@@ -117,7 +117,7 @@ namespace PayCompute.UI.Controllers
                 PostalCode = employee.PostalCode,
                 Designation = employee.Designation
             };
-            return View(employee);
+            return View(model);
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -165,7 +165,7 @@ namespace PayCompute.UI.Controllers
         }
 
         [HttpGet]
-        public IActionResult Details(int id)
+        public IActionResult Detail(int id)
         {
             var employee = _employeeService.GetById(id);
             if (employee == null)

@@ -1,4 +1,6 @@
-﻿using PayCompute.Entity;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using PayCompute.Entity;
 using PayCompute.UI.Persistence;
 using System;
 using System.Collections.Generic;
@@ -32,7 +34,7 @@ namespace PayCompute.Services.Implementation
             await _context.SaveChangesAsync();
         }
 
-        public IEnumerable<Employee> GetAll() => _context.Employees;
+        public IEnumerable<Employee> GetAll() => _context.Employees.AsNoTracking().OrderBy(emp => emp.FullName);
         public async Task UpdateAsync(Employee employee)
         {
             _context.Update(employee);
@@ -78,6 +80,13 @@ namespace PayCompute.Services.Implementation
             return fee;
         }
 
-
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString() 
+            });
+        }
     }
 }

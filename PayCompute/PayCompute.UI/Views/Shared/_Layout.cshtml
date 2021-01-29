@@ -45,24 +45,34 @@
                         <a class="dropdown-item" asp-controller="Employees" asp-action="Index">All Employees</a>
                     </div>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PayRolls
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" asp-controller="Pay" asp-action="Create">New Payroll</a>
+                        <a class="dropdown-item" asp-controller="Pay" asp-action="Index">All Payrolls</a>
+                    </div>
+                </li>
             </ul>
+        </div>
+        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-center">
+            <partial name="_LoginPartial" />
         </div>
     </nav>
 
     <div class="container">
-        <div class="navbar-menu-wrapper d-flex align-items-center justify-content-center">
-            <partial name="_LoginPartial" />
-        </div>
+
         <div class="main-panel">
             <div class="content-wrapper">
                 @RenderBody()
             </div>
-            <footer class="footer">
-                <p>&copy; @DateTime.UtcNow.Year - Paycompute - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
-            </footer>
         </div>
-        
+
     </div>
+    <footer class="footer">
+        <p>&copy; @DateTime.UtcNow.Year - Paycompute - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></p>
+    </footer>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

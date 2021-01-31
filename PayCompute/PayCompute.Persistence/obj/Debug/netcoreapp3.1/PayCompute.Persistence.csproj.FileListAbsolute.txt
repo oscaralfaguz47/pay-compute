@@ -1,0 +1,13 @@
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Entity.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.csprojAssemblyReference.cache
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.AssemblyInfoInputs.cache
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.AssemblyInfo.cs
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Persistence.deps.json
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Persistence.runtimeconfig.json
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Persistence.runtimeconfig.dev.json
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Persistence.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Persistence.pdb
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\bin\Debug\netcoreapp3.1\PayCompute.Entity.pdb
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.csproj.CopyComplete
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Persistence\obj\Debug\netcoreapp3.1\PayCompute.Persistence.pdb

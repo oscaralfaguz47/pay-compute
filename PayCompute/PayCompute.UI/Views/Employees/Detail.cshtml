@@ -1,0 +1,44 @@
+﻿@model EmployeeDetailViewModel
+
+<div class="col-md-12 grid-margin grid-margin-md-0">
+    <div class="card-body">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item"><a asp-action="Index">Employee List</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Employee Details Employee</li>
+            </ol>
+        </nav>
+        <br /><br />
+        <div class="flex-wrap d-flex justify-content-start justify-content-sm-center flex-wrap">
+            <img class="rounded-circle shadow-lg" style="width:300px; height:350px" src="@Url.Content(Model.ImageUrl)" alt="image" />
+            <div class="flex-wrap align-items-center ml-5">
+                <p class="font-weight-bold text-success" style="font-size:20px">@Model.FullName</p>
+                <p class="font-weight-normal">@Model.Designation</p>
+                <p class="font-weight-normal">Gender: @Model.Gender</p>
+                <p class="font-weight-normal">Date of birth: @Model.DataOfBirth.ToString("dd/MM/yyy")</p>
+                <p class="font-weight-normal">Employee number: @Model.EmployeeNo</p>
+                <p class="font-weight-normal">NI Number: @Model.NationalInsuranceNo</p>
+                <p class="font-weight-normal">Email: @Model.Email</p>
+                <p class="font-weight-normal">Phone: @Model.Phone</p>
+                <br />
+                <br />
+                <p class="font-weight-bold">Pay & Deductions</p>
+                <hr style="background-color:crimson" />
+                <p class="font-weight-normal">Payment Method: @Model.PaymentMethod</p>
+                <p class="font-weight-normal">Student Loan: @Model.StudentLoan</p>
+                <p class="font-weight-normal">Union Member: @Model.UnionMember</p>
+                <p class="font-weight-normal">Gender: @Model.Gender</p>
+                <p class="font-weight-normal"><a href="mailto:@Model.Email?subject=Payslip&body=Attached within is your paylip.">Send Payslist</a></p>
+                <br />
+                <p class="font-weight-bold">Address</p>
+                <hr style="background-color:crimson" />
+                <p class="font-weight-normal">@Model.Address</p>
+                <p class="font-weight-normal">City: @Model.City</p>
+                <p class="font-weight-normal">Postal Code: @Model.PostalCode</p>
+                <br />
+                <br />
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Services.deps.json
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Services.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Services.pdb
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Entity.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Persistence.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Entity.pdb
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\bin\Debug\netcoreapp2.2\PayCompute.Persistence.pdb
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csprojAssemblyReference.cache
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.AssemblyInfoInputs.cache
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.AssemblyInfo.cs
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.csproj.CopyComplete
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.dll
+C:\Github Repositories\Pay-Compute .NET CORE MVC\pay-compute\PayCompute\PayCompute.Services\obj\Debug\netcoreapp2.2\PayCompute.Services.pdb
